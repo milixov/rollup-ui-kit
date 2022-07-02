@@ -1,10 +1,12 @@
 {
     "compilerOptions": {
         "jsx": "react",
-        "module": "ES6",
         "outDir": "dist",
         "declaration": true,
-        "moduleResolution": "node"
+        "module": "commonjs",
+        "esModuleInterop": true,
+        "moduleResolution": "node",
+        "allowSyntheticDefaultImports": true
     },
     "include": ["**/*.ts", "**/*.tsx"],
     "exclude": ["node_modules", "dist", ".vscode"],

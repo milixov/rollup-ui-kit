@@ -1,3 +1,8 @@
-import React from 'react';
-var Label = function (props) { return React.createElement("span", null, props.title); };
-export default Label;
+"use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+exports.__esModule = true;
+var react_1 = __importDefault(require("react"));
+var Label = function (props) { return react_1["default"].createElement("span", null, props.title); };
+exports["default"] = Label;

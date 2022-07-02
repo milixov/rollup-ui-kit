@@ -1,6 +1,6 @@
 {
   "name": "abol-ui-kit",
-  "version": "0.14.0",
+  "version": "0.18.0",
   "description": "",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -11,18 +11,27 @@
   "license": "ISC",
   "devDependencies": {
     "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "typescript": "^4.7.4"
   },
   "peerDependencies": {
-    "react": "^18.2.0"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
-  "files": ["dist/**/*.js", "dist/**/*.d.ts"],
+  "files": [
+    "dist/**/*.js",
+    "dist/**/*.d.ts"
+  ],
   "exports": {
+    ".": "./dist/index.js",
     "./Label": "./dist/components/Label/Label.js"
   },
   "typesVersions": {
     "*": {
-      "Label": ["./dist/components/Label/Label.d.ts"]
+      ".": ["./dist/index.d.ts"],
+      "Label": [
+        "./dist/components/Label/Label.d.ts"
+      ]
     }
   }
 }
