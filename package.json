@@ -1,11 +1,17 @@
 {
-  "name": "rollup-ui-kit",
-  "version": "2.3.0",
+  "name": "abol-ui-kit",
+  "version": "0.2.0",
   "description": "",
   "main": "./dist/index.js",
   "exports": {
-    ".": {"import": "./dist/index.js", "types": "./dist/index.d.ts"},
-    "./dist/Label": {"import": "./dist/Label/index.js", "types": "./dist/Label/index.d.ts"}
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./dist/Label": {
+      "import": "./dist/Label/index.js",
+      "types": "./dist/Label/index.d.ts"
+    }
   },
   "types": "./dist/index.d.ts",
   "scripts": {
@@ -13,7 +19,7 @@
   },
   "author": "Snapp FE team",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
     "react": "^18.2.0",
     "typescript": "^4.7.4"
   },
