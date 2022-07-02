@@ -1,6 +1,6 @@
 {
   "name": "abol-ui-kit",
-  "version": "0.2.0",
+  "version": "0.4.0",
   "description": "",
   "main": "./dist/index.js",
   "exports": {
@@ -8,9 +8,9 @@
       "import": "./dist/index.js",
       "types": "./dist/index.d.ts"
     },
-    "./dist/Label": {
-      "import": "./dist/Label/index.js",
-      "types": "./dist/Label/index.d.ts"
+    "./dist/components/Label": {
+      "import": "./dist/components/Label/index.js",
+      "types": "./dist/components/Label/index.d.ts"
     }
   },
   "types": "./dist/index.d.ts",

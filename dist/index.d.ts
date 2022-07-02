@@ -1,2 +1,3 @@
-import Label from './Label';
-export { Label };
+export * from './components';
+declare const _default: any;
+export default _default;

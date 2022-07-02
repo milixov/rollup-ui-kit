@@ -1,3 +1,3 @@
-import Label from './Label'
+export * from './components';
 
-export { Label }
+export default null
