@@ -1,15 +1,11 @@
 {
     "compilerOptions": {
-        "baseUrl": ".",
         "jsx": "react",
         "module": "ES6",
         "outDir": "dist",
         "declaration": true,
-        "moduleResolution": "node",
-        "paths": {
-            "@/*": ["./src/*"]
-        },
+        "moduleResolution": "node"
     },
     "include": ["**/*.ts", "**/*.tsx"],
-    "exclude": ["node_modules", "dist"],
+    "exclude": ["node_modules", "dist", ".vscode"],
 }

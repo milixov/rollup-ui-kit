@@ -1,3 +1,3 @@
-export * from '@/components';
+export * from './components';
 declare const _default: any;
 export default _default;
